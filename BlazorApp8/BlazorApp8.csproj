@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+      <UseRazorSourceGenerator>true</UseRazorSourceGenerator>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TimeWarp.State" Version="11.0.0-beta.77" />
+    <PackageReference Include="TimeWarp.State.Plus" Version="11.0.0-beta.77" />
+  </ItemGroup>
 
 </Project>
